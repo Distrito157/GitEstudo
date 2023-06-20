@@ -42,18 +42,18 @@ Existem dois tipos principais de repositórios Git:
 
 1. Repositório Local: É o repositório que está no seu computador. Você pode criar um repositório local usando o comando `git init` em um diretório vazio. Ele conterá todas as informações do projeto e seu histórico de alterações.
 
-2. Remoto: É um repositório hospedado em um servidor remoto, como GitHub, GitLab ou Bitbucket. Os repositórios remotos são usados para colaboração entre desenvolvedores e para compartilhar o código-fonte do projeto com outras pessoas. Você pode clonar um repositório remoto para criar uma cópia local em seu computador usando o comando `git clone`.
+2. Repositório Remoto: É um repositório hospedado em um servidor remoto, como GitHub, GitLab ou Bitbucket. Os repositórios remotos são usados para colaboração entre desenvolvedores e para compartilhar o código-fonte do projeto com outras pessoas. Você pode clonar um repositório remoto para criar uma cópia local em seu computador usando o comando `git clone`.
 
 Exemplo de criação de um repositório Git local:
 
-1. o terminal ou prompt de comando e navegue até o diretório do seu projeto.
-2. o comando `git init` para inicializar um repositório Git vazio.
-3. os arquivos do projeto ao repositório usando o comando `git add`.
-4. um commit das alterações usando o comando `git commit -m "Mensagem do commit"`.
+1. Abra o terminal ou prompt de comando e navegue até o diretório do seu projeto.
+2. Execute o comando `git init` para inicializar um repositório Git vazio.
+3. Adicione os arquivos do projeto ao repositório usando o comando `git add`.
+4. Faça um commit das alterações usando o comando `git commit -m "Mensagem do commit"`.
 
 Exemplo de clonagem de um repositório Git remoto:
 
-1. o terminal ou prompt de comando e navegue até o diretório onde deseja clonar o repositório.
+1. Abra o terminal ou prompt de comando e navegue até o diretório onde deseja clonar o repositório.
 2. Execute o comando `git clone URL_DO_REPOSITORIO` (substitua `URL_DO_REPOSITORIO` pela URL real do repositório remoto).
 3. O Git irá clonar o repositório remoto para o seu computador, criando uma cópia local completa.
 
