@@ -34,7 +34,7 @@
 
 Esses são alguns dos fundamentos do Git, abrangendo desde os conceitos básicos até tópicos mais avançados. Lembre-se de que o Git é uma ferramenta poderosa e flexível, e quanto mais você explorar esses fundamentos, mais habilidades e conhecimentos adquirirá.
 
-# <a name="#repgit"></a>Repositório Git
+# <a name="repgit"></a>Repositório Git
 
 Um repositório Git é um local onde todas as versões e histórico de um projeto são armazenados. Ele contém todos os arquivos, diretórios e metadados relacionados ao projeto. O repositório Git mantém um registro completo de todas as alterações feitas ao longo do tempo, permitindo que os desenvolvedores acompanhem o progresso do projeto e revertam para versões anteriores, se necessário.
 
