@@ -59,3 +59,22 @@ Existem dois tipos principais de repositórios Git:
 
 Lembre-se de que o Git armazena todas as versões e alterações no histórico de commits, permitindo que você acesse facilmente versões anteriores do projeto e compare as diferenças entre elas. Isso torna o repositório Git uma poderosa ferramenta para gerenciar e controlar o desenvolvimento de software.
 
+# <a name="configgit"></a>Configuração do git
+
+A configuração do Git permite que você personalize o comportamento e as opções do Git de acordo com suas preferências e necessidades. Existem diferentes níveis de configuração, desde configurações específicas do usuário até configurações específicas do projeto.
+
+1. **Configuração do usuário**: Essas configurações são aplicadas globalmente e se aplicam a todos os repositórios em seu sistema. Você pode definir seu nome de usuário, endereço de e-mail e outras opções usando os seguintes comandos:
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+```
+2. **Configuração do repositório**: Essas configurações são específicas para um repositório em particular e substituem as configurações globais quando definidas. Para configurar opções específicas de um repositório, navegue até o diretório do repositório e execute os seguintes comandos:
+```bash
+git config user.name "Seu Nome"
+git config user.email "seuemail@example.com"
+```
+3. **Visualizando as configurações**: Para visualizar as configurações atuais, você pode usar o seguinte comando:
+```bash
+git config --list
+```
+4. Outras configurações: Além das configurações básicas de usuário e e-mail, existem várias outras opções de configuração disponíveis no Git. Algumas configurações comuns incluem a definição de um editor de texto padrão para mensagens de commit, a configuração de alias para comandos frequentemente usados e a definição de opções de merge e diff. Você pode explorar essas configurações e mais detalhes na documentação oficial do Git. 
