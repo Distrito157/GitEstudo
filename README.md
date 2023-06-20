@@ -78,3 +78,35 @@ git config user.email "seuemail@example.com"
 git config --list
 ```
 4. Outras configurações: Além das configurações básicas de usuário e e-mail, existem várias outras opções de configuração disponíveis no Git. Algumas configurações comuns incluem a definição de um editor de texto padrão para mensagens de commit, a configuração de alias para comandos frequentemente usados e a definição de opções de merge e diff. Você pode explorar essas configurações e mais detalhes na documentação oficial do Git. 
+
+# <a name="fluxotrabalho"></a>Fluxo de trabalho básico no Git
+
+1. **Inicialização do repositório**: Comece criando um repositório Git para o seu projeto. Isso pode ser feito usando o comando `git init` em um diretório vazio ou clonando um repositório existente usando o comando `git clone`.
+2. **Adicionar arquivos**: Adicione os arquivos do seu projeto ao repositório Git usando o comando `git add`. Você pode adicionar arquivos individualmente ou usar curingas para adicionar vários arquivos de uma só vez.
+```bash
+git add arquivo1.txt     # Adiciona um arquivo específico
+git add pasta/           # Adiciona todos os arquivos dentro de uma pasta
+git add .                # Adiciona todos os arquivos e pastas no diretório atual
+```
+3. **Realizar um commit**: Depois de adicionar os arquivos, você precisa fazer um commit para registrar as alterações no repositório Git. Um commit é uma confirmação das alterações realizadas. Use o comando `git commit` para criar um commit com uma mensagem descritiva.
+```bash
+git commit -m "Mensagem descritiva do commit"
+```
+4. **Trabalhando com branches**: O uso de branches permite que você trabalhe em diferentes linhas de desenvolvimento separadas. É uma boa prática criar um branch separado para cada nova funcionalidade ou correção de bug. Use o comando `git branch` para criar um novo branch e o comando `git checkout` para alternar entre os branches existentes.
+```bash
+git branch novo-branch     # Cria um novo branch
+git checkout outro-branch  # Alterna para outro branch
+```
+5. **Mesclar branches**: Após desenvolver uma funcionalidade em um branch separado, você pode mesclar suas alterações de volta ao branch principal usando o comando `git merge`.
+```bash
+git checkout branch-principal   # Alterna para o branch principal
+git merge novo-branch           # Mescla as alterações do novo branch
+```
+6. **Atualizar o repositório remoto**: Se você estiver trabalhando com um repositório remoto, como o GitHub, é importante manter o repositório remoto atualizado com as alterações locais. Use o comando `git push` para enviar seus commits para o repositório remoto.
+```bash
+git push origin branch-principal   # Envia os commits para o branch principal no repositório remoto
+```
+7. **Atualizar o repositório local**: Para obter as alterações feitas por outras pessoas em um repositório remoto, você pode usar o comando `git pull` para buscar e mesclar as alterações para o seu repositório local.
+```bash
+git pull origin branch-principal   # Obtém e mescla as alterações do branch principal no repositório remoto
+```
